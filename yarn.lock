@@ -3907,6 +3907,7 @@ __metadata:
     react-select: ^5.7.7
     recoil: ^0.7.7
     styled-components: ^6.1.0
+    styled-reset: ^4.5.1
     ts-jest: ^29.1.1
     typescript: ^5.0.2
     vite: ^4.4.5
@@ -6934,6 +6935,15 @@ __metadata:
     react: ">= 16.8.0"
     react-dom: ">= 16.8.0"
   checksum: 989262a2be35f09fc0a277da9ed21280d11e0de90e4160d4c0612faed3f4bf2d1667f227e3ee1393a0bf037869075e5c3b4160627777dc7cc533fed89c6d64e0
+  languageName: node
+  linkType: hard
+
+"styled-reset@npm:^4.5.1":
+  version: 4.5.1
+  resolution: "styled-reset@npm:4.5.1"
+  peerDependencies:
+    styled-components: ">=4.0.0 || >=5.0.0 || >=6.0.0"
+  checksum: ff6c5bbc738017a535a5e74cc3b2e7112652691c8e4acae700fe3d051f870035e2d911e6629a9a626349ccc58ba9842b83793bd9111f4e1c9e1fa695f773d2b8
   languageName: node
   linkType: hard
 
