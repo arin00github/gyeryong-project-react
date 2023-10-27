@@ -41,6 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vitejs/plugin-react", "virtual:8dcbb522e348875aea03682f2d7f6ab115fa35a81a98d53218545b3d228b1768e12243eaf60561ee94a915b0348c05c1b5d976ba6658628ac9076deba02f4a3e#npm:4.1.0"],\
             ["axios", "npm:1.6.0"],\
             ["babel-jest", "virtual:8dcbb522e348875aea03682f2d7f6ab115fa35a81a98d53218545b3d228b1768e12243eaf60561ee94a915b0348c05c1b5d976ba6658628ac9076deba02f4a3e#npm:29.7.0"],\
+            ["dayjs", "npm:1.11.10"],\
             ["eslint", "npm:8.52.0"],\
             ["eslint-config-prettier", "virtual:8dcbb522e348875aea03682f2d7f6ab115fa35a81a98d53218545b3d228b1768e12243eaf60561ee94a915b0348c05c1b5d976ba6658628ac9076deba02f4a3e#npm:9.0.0"],\
             ["eslint-plugin-import", "virtual:8dcbb522e348875aea03682f2d7f6ab115fa35a81a98d53218545b3d228b1768e12243eaf60561ee94a915b0348c05c1b5d976ba6658628ac9076deba02f4a3e#npm:2.29.0"],\
@@ -3933,6 +3934,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["dayjs", [\
+        ["npm:1.11.10", {\
+          "packageLocation": "./.yarn/cache/dayjs-npm-1.11.10-2b4382efc1-a6b5a3813b.zip/node_modules/dayjs/",\
+          "packageDependencies": [\
+            ["dayjs", "npm:1.11.10"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["debug", [\
         ["npm:3.2.7", {\
           "packageLocation": "./.yarn/cache/debug-npm-3.2.7-754e818c7a-b3d8c59407.zip/node_modules/debug/",\
@@ -5325,6 +5335,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vitejs/plugin-react", "virtual:8dcbb522e348875aea03682f2d7f6ab115fa35a81a98d53218545b3d228b1768e12243eaf60561ee94a915b0348c05c1b5d976ba6658628ac9076deba02f4a3e#npm:4.1.0"],\
             ["axios", "npm:1.6.0"],\
             ["babel-jest", "virtual:8dcbb522e348875aea03682f2d7f6ab115fa35a81a98d53218545b3d228b1768e12243eaf60561ee94a915b0348c05c1b5d976ba6658628ac9076deba02f4a3e#npm:29.7.0"],\
+            ["dayjs", "npm:1.11.10"],\
             ["eslint", "npm:8.52.0"],\
             ["eslint-config-prettier", "virtual:8dcbb522e348875aea03682f2d7f6ab115fa35a81a98d53218545b3d228b1768e12243eaf60561ee94a915b0348c05c1b5d976ba6658628ac9076deba02f4a3e#npm:9.0.0"],\
             ["eslint-plugin-import", "virtual:8dcbb522e348875aea03682f2d7f6ab115fa35a81a98d53218545b3d228b1768e12243eaf60561ee94a915b0348c05c1b5d976ba6658628ac9076deba02f4a3e#npm:2.29.0"],\
