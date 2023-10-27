@@ -16,13 +16,25 @@ const queryClient = new QueryClient({
 });
 
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <RecoilRoot>
-    <QueryClientProvider client={queryClient}>
-      <GlobalStyle />
-      <RouterProvider router={router}/>
-    </QueryClientProvider>
-    </RecoilRoot>
-  </React.StrictMode>,
-)
+
+async function deferRander() {
+  if(process.env.NODE_ENV !== 'development'){
+    return
+  }
+  const {worker} = await import('./mock/browser.ts');
+  return worker.start()
+}
+
+deferRander().then(() => {
+  ReactDOM.createRoot(document.getElementById('root')!).render(
+    <React.StrictMode>
+      <RecoilRoot>
+      <QueryClientProvider client={queryClient}>
+        <GlobalStyle />
+        <RouterProvider router={router}/>
+      </QueryClientProvider>
+      </RecoilRoot>
+    </React.StrictMode>,
+  )
+})
+

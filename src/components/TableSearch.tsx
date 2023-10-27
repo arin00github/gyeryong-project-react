@@ -4,10 +4,10 @@ import styled from "styled-components";
 import DatePicker, { registerLocale } from "react-datepicker";
 import CommonButton from "./CommonButton";
 import dayjs from "dayjs";
-import ko from "date-fns/locale/ko";
+// import ko from "date-fns/locale/ko";
 import CommonSelect from "./CommonSelect";
 
-registerLocale("ko", ko);
+// registerLocale("ko", ko);
 
 import "react-datepicker/dist/react-datepicker.css";
 

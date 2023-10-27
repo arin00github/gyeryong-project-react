@@ -34,7 +34,7 @@ export interface SafeRoadStatusResult  {
 
 export interface GetSafeRoadStatusResponse extends HttpResponse {
     /** 응답 값 */
-    response: {
+    response?: {
         /** 응답 결과 값의 배열 */
         results: SafeRoadStatusResult[];
         /** 응답 row 갯수 */
@@ -56,7 +56,7 @@ export interface SafeRoadAssetResult {
 
 export interface GetSafeRoadAssetResponse extends HttpResponse {
     /** 응답 값 */
-    response: {
+    response?: {
         /** 응답 결과 값의 배열 */
         results: SafeRoadAssetResult[];
         /** 전체 데이터 수 */
@@ -84,7 +84,7 @@ export interface SafeRoadDailyStatusResult {
 
 export interface GetSafeRoadDailyStatusResponse extends HttpResponse {
     /** 응답 값 */
-    response: {
+    response?: {
         /** 응답 결과 값의 배열 */
         results: SafeRoadDailyStatusResult[];
         /** 전체 데이터 수 */

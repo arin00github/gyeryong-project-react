@@ -69,3 +69,14 @@ export type columnInfoType = {
     label: string;
     unit?: string;
 };
+
+
+
+
+
+export interface filterCommonParams {
+    startDate: string;
+    endDate: string;
+    pageNum: number;
+    deveui: string;
+}
