@@ -17,7 +17,7 @@ const Root = () => {
 const RootContainer = styled.div`
     width: 100%;
     height: 100vh;
-    background-color: #3c4148;
+    background-color: #1d2329;
     overflow: hidden;
 `;
 

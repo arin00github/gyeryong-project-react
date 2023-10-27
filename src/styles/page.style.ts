@@ -16,28 +16,17 @@ export const LoadingWrap = styled.div`
     height: 384.5px;
 `;
 
-/** TODO: 삭제 예정 */
-export const TodoCurrentPageText = styled.div`
-    position: absolute;
-    bottom: 20px;
-    transform: translateX(-50%);
-    left: 50%;
-    z-index: 9999;
-    background: #000;
-    color: #fff;
-    padding: 16px;
-`;
 
 export const DataStatusPageContainer = styled.div`
     width: 100%;
     height: 100%;
-    background: #1d2329;
+    background: ${props => props.theme.whiteAlpha100};
     display: flex;
     flex-direction: column;
     padding: 16px;
 `;
 
-export const DataStatusTableSearchContainer = styled.div`
+export const DataSearchContainer = styled.div`
     min-height: 50px;
     display: flex;
 `;
@@ -51,15 +40,11 @@ export const DataTableContainer = styled.div`
     height: 100%;
 `;
 
-export const DataStatusChartSearchContainer = styled.div`
-    min-height: 50px;
-    display: flex;
-`;
 
-export const DataStatusChartContainer = styled.div`
+export const DataChartContainer = styled.div`
     width: 100%;
     height: 100%;
-    background: #3c4148;
+    background: ${props => props.theme.whiteAlpha300};
     display: flex;
     flex-direction: column;
     position: relative;

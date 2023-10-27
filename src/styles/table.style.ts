@@ -7,7 +7,7 @@ export const TanstackReactTable = styled.table`
         font-size: 14px;
         height: 32px;
         color: #fff;
-        border-bottom: 2px solid #9da2a6;
+        border-bottom: ${props => `2px solid ${props.theme.whiteAlpha400}`};
         background-color: rgba(97, 102, 107, 0.4);
         font-weight: 700;
         text-align: center;
@@ -22,7 +22,7 @@ export const TanstackReactTable = styled.table`
     td {
         height: 32px;
         font-size: 13px;
-        border-bottom: 1px solid #4a4f54;
+        border-bottom: ${props => `1px solid ${props.theme.whiteAlpha400}`};
         color: #ddd;
         text-align: center;
         vertical-align: middle;
