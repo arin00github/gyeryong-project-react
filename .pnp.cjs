@@ -43,6 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["axios", "npm:1.6.0"],\
             ["babel-jest", "virtual:8dcbb522e348875aea03682f2d7f6ab115fa35a81a98d53218545b3d228b1768e12243eaf60561ee94a915b0348c05c1b5d976ba6658628ac9076deba02f4a3e#npm:29.7.0"],\
             ["dayjs", "npm:1.11.10"],\
+            ["echarts", "npm:5.4.3"],\
             ["eslint", "npm:8.52.0"],\
             ["eslint-config-prettier", "virtual:8dcbb522e348875aea03682f2d7f6ab115fa35a81a98d53218545b3d228b1768e12243eaf60561ee94a915b0348c05c1b5d976ba6658628ac9076deba02f4a3e#npm:9.0.0"],\
             ["eslint-plugin-import", "virtual:8dcbb522e348875aea03682f2d7f6ab115fa35a81a98d53218545b3d228b1768e12243eaf60561ee94a915b0348c05c1b5d976ba6658628ac9076deba02f4a3e#npm:2.29.0"],\
@@ -4318,6 +4319,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["echarts", [\
+        ["npm:5.4.3", {\
+          "packageLocation": "./.yarn/cache/echarts-npm-5.4.3-457e482005-f4f69becf1.zip/node_modules/echarts/",\
+          "packageDependencies": [\
+            ["echarts", "npm:5.4.3"],\
+            ["tslib", "npm:2.3.0"],\
+            ["zrender", "npm:5.4.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["electron-to-chromium", [\
         ["npm:1.4.568", {\
           "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.4.568-60fc0630e4-cd9ea1df22.zip/node_modules/electron-to-chromium/",\
@@ -5475,6 +5487,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["axios", "npm:1.6.0"],\
             ["babel-jest", "virtual:8dcbb522e348875aea03682f2d7f6ab115fa35a81a98d53218545b3d228b1768e12243eaf60561ee94a915b0348c05c1b5d976ba6658628ac9076deba02f4a3e#npm:29.7.0"],\
             ["dayjs", "npm:1.11.10"],\
+            ["echarts", "npm:5.4.3"],\
             ["eslint", "npm:8.52.0"],\
             ["eslint-config-prettier", "virtual:8dcbb522e348875aea03682f2d7f6ab115fa35a81a98d53218545b3d228b1768e12243eaf60561ee94a915b0348c05c1b5d976ba6658628ac9076deba02f4a3e#npm:9.0.0"],\
             ["eslint-plugin-import", "virtual:8dcbb522e348875aea03682f2d7f6ab115fa35a81a98d53218545b3d228b1768e12243eaf60561ee94a915b0348c05c1b5d976ba6658628ac9076deba02f4a3e#npm:2.29.0"],\
@@ -9612,6 +9625,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["tslib", [\
+        ["npm:2.3.0", {\
+          "packageLocation": "./.yarn/cache/tslib-npm-2.3.0-277e75e108-8869694c26.zip/node_modules/tslib/",\
+          "packageDependencies": [\
+            ["tslib", "npm:2.3.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:2.6.2", {\
           "packageLocation": "./.yarn/cache/tslib-npm-2.6.2-4fc8c068d9-329ea56123.zip/node_modules/tslib/",\
           "packageDependencies": [\
@@ -10297,6 +10317,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/yocto-queue-npm-0.1.0-c6c9a7db29-f77b3d8d00.zip/node_modules/yocto-queue/",\
           "packageDependencies": [\
             ["yocto-queue", "npm:0.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["zrender", [\
+        ["npm:5.4.4", {\
+          "packageLocation": "./.yarn/cache/zrender-npm-5.4.4-dc4fac2b7a-4b317346af.zip/node_modules/zrender/",\
+          "packageDependencies": [\
+            ["zrender", "npm:5.4.4"],\
+            ["tslib", "npm:2.3.0"]\
           ],\
           "linkType": "HARD"\
         }]\
