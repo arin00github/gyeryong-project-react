@@ -22,10 +22,11 @@ async function deferRander() {
     return
   }
   const {worker} = await import('./mock/browser.ts');
-  return worker.start()
+  return worker.start({})
 }
 
-deferRander().then(() => {
+deferRander().then((res) => {
+  console.log('worker start', res)
   ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>
       <RecoilRoot>

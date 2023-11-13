@@ -27,7 +27,7 @@ interface CustomInputProps {
 }
 
 
-const TableSearch = (props: TableSearchProps) => {
+const DataTableSearch = (props: TableSearchProps) => {
 
     const {tableSearchConfig} = props;
 
@@ -81,7 +81,7 @@ const TableSearch = (props: TableSearchProps) => {
                 id="data-picker-startdate" 
                 locale={'ko'} 
                 selected={searchStartDate} 
-                dateFormat={`YYYY-MM-dd`} 
+                dateFormat={`yyyy-MM-dd`} 
                 onChange={setSearchStartDate} 
                 customInput={createElement(CustomInput)}
             />
@@ -89,7 +89,7 @@ const TableSearch = (props: TableSearchProps) => {
                 id="data-picker-enddate" 
                 locale={'ko'} 
                 selected={searchEndDate} 
-                dateFormat={`YYYY-MM-dd`} 
+                dateFormat={`yyyy-MM-dd`} 
                 onChange={setSearchEndDate} 
                 customInput={createElement(CustomInput)}
             />
@@ -153,4 +153,4 @@ const DataPickerInput = styled.input`
     }
 `;
 
-export default TableSearch
+export default DataTableSearch

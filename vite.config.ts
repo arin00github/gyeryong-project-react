@@ -8,9 +8,24 @@ export default defineConfig(({mode}) => {
   return {
     plugins: [react(), EnvironmentPlugin('all')],
     base: env.VITE_BASE_URL,
+    cacheDir: ".vite",
     server: {
       open: env.VITE_BASE_URL,
-      port: 1027
+      port: 1027,
+      proxy: {
+        "/dms-gis/api": {
+          changeOrigin: true,
+          target: "http://ca-10-10-97-180.vurix.kr",
+      },
+      "/dms-gis-proxy": {
+        changeOrigin: true,
+        target: "http://ca-10-10-97-180.vurix.kr",
+    },
+    "/vurix-dms/api/": {
+      changeOrigin: true,
+      target: "http://ca-10-10-97-180.vurix.kr",
+  },
+      }
     }
   }
 })

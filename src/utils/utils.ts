@@ -156,3 +156,13 @@ export function getRandomNumber(min: number, max: number): number {
     // 따라서, (max - min + 1)을 곱한 후, min을 더해주면 원하는 범위의 난수를 얻을 수 있습니다.
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+export const extractDateString = (date: Date): string => {
+    return date.toISOString().split("T")[0];
+};
+
+export const beforeOneWeek = () => {
+    const today = new Date();
+    const oneWeekAgo = new Date(today.setDate(today.getDate() - 7));
+    return extractDateString(oneWeekAgo);
+};

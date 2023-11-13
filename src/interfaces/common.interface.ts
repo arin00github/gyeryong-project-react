@@ -26,7 +26,7 @@ export interface TableSearchConfig {
 }
 
 /** 테이블 컬럼을 위한 설정 */
-interface ColumnConfig {
+export interface ColumnConfig {
     column: string;
     columnName: string;
     dimension?: string;

@@ -47,4 +47,8 @@ export const GlobalStyle = createGlobalStyle`
     .react-datepicker__triangle {
       display: none !important;
     }
+    body {
+        background-color: #192222;
+        color: #fff
+    }
 `;
