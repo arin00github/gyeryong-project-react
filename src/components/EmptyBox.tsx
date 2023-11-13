@@ -3,6 +3,8 @@ import styled from "styled-components";
 
 interface EmptyBoxProps {
     height?: number;
+    text?: string;
+    subText?: string;
 }
 
 const EmptyBox = (props: EmptyBoxProps) => {
@@ -13,9 +15,9 @@ const EmptyBox = (props: EmptyBoxProps) => {
                     <div className="message-container">
                         <div className="message-wrap">
                             {/* <AlertCircle /> */}
-                            <p className="upper-message">데이터가 없습니다</p>
+                            <p className="upper-message">{props.text || "데이터가 없습니다"}</p>
                         </div>
-                        <p className="sub-text">검색 조건을 다시 확인해 주세요</p>
+                        <p className="sub-text">{props.subText || '검색 조건을 다시 확인해 주세요'}</p>
                     </div>
                 </StyledEmptyBoxText>
             </StyledWrap>

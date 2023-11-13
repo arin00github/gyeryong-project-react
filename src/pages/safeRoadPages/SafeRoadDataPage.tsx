@@ -1,17 +1,18 @@
 import dayjs from "dayjs";
-import { ChartSearchConfig, SelectOption, TableConfig, TableSearchConfig, TableSearchData, columnInfoType } from "../../interfaces/common.interface"
-import { GetSafeRoadAssetResponse, GetSafeRoadStatusParams, GetSafeRoadStatusResponse, SafeRoadStatusResult } from "../../interfaces/safeRoad.interface"
+import { ChartSearchConfig, ChartSearchSelectedValue, SelectOption, TableConfig, TableSearchConfig, TableSearchData, columnInfoType } from "../../interfaces/common.interface"
+import { GetSafeRoadAssetResponse, GetSafeRoadDailyStatusParams, GetSafeRoadDailyStatusResponse, GetSafeRoadStatusParams, GetSafeRoadStatusResponse, SafeRoadDailyStatusResult, SafeRoadStatusResult } from "../../interfaces/safeRoad.interface"
 import { PageContainer, DataStatusPageContainer, DataSearchContainer, DataChartContainer, DataTableContainer, LoadingWrap } from "../../styles/page.style"
 import { useRecoilState } from "recoil";
 import { tablePageNumberState } from "../../services/recoil/table.state";
 import { useEffect, useState } from "react";
 import { UseQueryResult, useQuery } from "@tanstack/react-query";
-import { getSafeRoadAssets, getSafeRoadStatusData } from "../../services/api/safeRoad.api";
+import { getSafeRoadAssets, getSafeRoadDailyStatus, getSafeRoadStatusData } from "../../services/api/safeRoad.api";
 import { ErrorResponse } from "../../interfaces/http.interface";
 import DataTableSearch from "../../components/DataTableSearch";
 import EmptyBox from "../../components/EmptyBox";
-import { set } from "ol/transform";
 import DataTable from "../../components/DataTable";
+import DataChartSearch from "../../components/DataChartSearch";
+import DataChart from "../../components/DataChart";
 
 
 
@@ -68,7 +69,7 @@ const SafeRoadDataPage = () => {
     /** [테이블] 테이블 생성을 위한 설정 정보 */
     const [safeRoadTableConfig, setSafeRoadTableConfig ]= useState<SafeRoadTableConfig>();
 
-    /** [API Hook] 안심글 데이터현황 조회 */
+    /** [API Hook] 안심길 데이터현황 조회 */
     const {
         data: safeRoadStatusData,
         isLoading: safeRoadStatusLoading,
@@ -85,6 +86,8 @@ const SafeRoadDataPage = () => {
         },
         refetchOnWindowFocus: false,
     })
+
+    
 
     /**
      * 데이터 테이블 상단 검색 영역 [검색] 버튼 클릭 이벤트
@@ -118,7 +121,44 @@ const SafeRoadDataPage = () => {
     /************* 차트 관련 상태관리 값 *************/
     /*************************************************/
 
-    const [chartSearchConfig, setChartSearchConfig] = useState<ChartSearchConfig>()
+    /** 두 번째 셀렉트 하드코딩 */
+    const chartYAxisSelectConfig = [
+        { value: "fast_pass", label: "과속차량 통과대수" },
+        { value: "normal_pass", label: "정속차량 통과대수" },
+    ];
+
+    /** [차트] 검색 영역 구성을 위한 설정 정보 */
+    const [chartSearchConfig, setChartSearchConfig]= useState<ChartSearchConfig>();
+
+    /** [차트] 일별 안심길 데이터 현황 조회를 위한 parameter 정보 */
+    const [safeRoadDailyDataParams, setSafeRoadDailyDataParams] = useState<GetSafeRoadDailyStatusParams>({deveui: undefined})
+
+    const {
+        data: safeRoadDailyData,
+        isLoading: safeRoadDailyLoading,
+        isError: safeRoadDailyIsError,
+        error: safeRoadDailyError,
+    }:UseQueryResult<GetSafeRoadDailyStatusResponse> = useQuery({
+        queryKey: ['smart-safe-daily-road', safeRoadDailyDataParams],
+        queryFn: () => {
+            const newParams:GetSafeRoadDailyStatusParams = {
+                ...safeRoadDailyDataParams,
+                deveui: safeRoadDailyDataParams.deveui?.split('#')[0]
+            }
+            return getSafeRoadDailyStatus(newParams)
+        }
+    })
+
+    const handleChartSearch = (selectOptionSets: ChartSearchSelectedValue[]) => { 
+        console.log('handleChartSearch', selectOptionSets)
+        const params:GetSafeRoadDailyStatusParams = {}
+        selectOptionSets.forEach((searchSet) => {
+            if(searchSet.selectOption){
+                params[searchSet.key] = `${searchSet.selectOption.value}%${new Date().getTime()}` as string;
+            }
+        })
+        setSafeRoadDailyDataParams({...safeRoadDailyDataParams, ...params})
+    }
 
 
 
@@ -144,6 +184,11 @@ const SafeRoadDataPage = () => {
                     value: `${result.deveui}#${idx}`,
                     label: result.name
                 })))
+
+                setSafeRoadDailyDataParams({ 
+                    deveui: results[0].deveui,
+                    yAxis: chartYAxisSelectConfig[0].value
+                })
                 
             }
         }
@@ -162,6 +207,22 @@ const SafeRoadDataPage = () => {
                 selectOptions: safeRoadAssetOptions,
                 handleTableSearch,
                 handleTableExcelDownload
+            })
+            setChartSearchConfig({
+                selectConfigs: [
+                    {
+                        key: 'deveui',
+                        selectOptionArray: safeRoadAssetOptions,
+                    }
+                
+                ], 
+                yAxisConfigs: [
+                    {
+                        key: 'yAxis',
+                        selectOptionArray: chartYAxisSelectConfig,
+                    }
+                ],
+                handleChartSearch
             })
         }
     }, [safeRoadAssetOptions])
@@ -191,7 +252,9 @@ const SafeRoadDataPage = () => {
     }, [safeRoadStatusData])
 
 
-    const tableErrorCheck = safeRoadError && safeRoadIsError
+    const tableErrorCheck = safeRoadError && safeRoadIsError;
+
+    const chartErrorCheck = safeRoadDailyError && safeRoadDailyIsError;
 
 
     return (
@@ -201,16 +264,27 @@ const SafeRoadDataPage = () => {
                     {tableSearchConfig && <DataTableSearch tableSearchConfig={tableSearchConfig}/>}
                 </DataSearchContainer>
                 <DataTableContainer>
-                    {tableErrorCheck && <EmptyBox />}
+                    {tableErrorCheck && <EmptyBox subText="관리자에게 문의하세요" text="API 에러 발생"/>}
                     {safeRoadStatusLoading ? <LoadingWrap>loading</LoadingWrap> : (
                         safeRoadTableConfig && !tableErrorCheck && <div><DataTable config={safeRoadTableConfig} /></div>
                     )}
                 </DataTableContainer>
                 <DataSearchContainer>
-                    search container
+                    {chartSearchConfig && <DataChartSearch chartSearchConfig={chartSearchConfig}/> }
                 </DataSearchContainer>
                 <DataChartContainer>
-                    chart container
+                    {chartErrorCheck && <EmptyBox subText="관리자에게 문의하세요" text="API 에러 발생"/>}
+                    {safeRoadDailyLoading ? (
+                        <LoadingWrap>loading</LoadingWrap>
+                    ) : (
+                        safeRoadDailyData && safeRoadDailyData.response && !chartErrorCheck 
+                        && <DataChart<SafeRoadDailyStatusResult> 
+                            chartData={safeRoadDailyData.response.results} 
+                            yAxisKey={safeRoadDailyDataParams.yAxis} 
+                            xAxisKey="time" 
+                            totalCount={safeRoadDailyData.response.totalCount}
+                            />
+                    )}
                 </DataChartContainer>
             </DataStatusPageContainer>
             <div>SafeRoadDataPage</div>

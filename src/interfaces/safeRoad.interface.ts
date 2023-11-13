@@ -70,6 +70,7 @@ export interface GetSafeRoadAssetResponse extends HttpResponse {
 
 /** 스마트 안심길 일별 데이터현황 조회 params */
 export interface GetSafeRoadDailyStatusParams {
+    [key: string]: string | number | undefined;
     deveui?: string;
     yAxis?:string;
 }

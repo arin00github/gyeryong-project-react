@@ -43,23 +43,22 @@ export interface TableConfig<T> {
 }
 
 
-export interface ChartSearchData {
+export interface ChartSearchSelectedValue {
     key: string;
     selectOption: SelectOption;
-    yAxisOption: SelectOption;
 }
 
 /** 차트 상단 검색 영역 내 select 구성을 위한 설정 interface */
-export interface ChartSelectOptionConfig {
+export interface SelectOptionSets {
     key: string;
     /** select 구성을 위한 option 정보 */
-    selectOptions: SelectOption[]
+    selectOptionArray: SelectOption[]
 }
 
 export interface ChartSearchConfig {
-    selectConfigs: ChartSelectOptionConfig[];
-    yAxisConfigs: ChartSelectOptionConfig[];
-    handleChartSearch: (chartSearchData:ChartSearchData) => void;
+    selectConfigs: SelectOptionSets[];
+    yAxisConfigs: SelectOptionSets[];
+    handleChartSearch: (chartSearchData:ChartSearchSelectedValue[]) => void;
 }
 
 
