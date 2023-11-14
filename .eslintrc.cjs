@@ -13,7 +13,7 @@ module.exports = {
   },
   ignorePatterns: ['dist', '.eslintrc.cjs', "vite.config.ts"],
   parser: '@typescript-eslint/parser',
-  plugins: ['react-refresh', 'import', 'prettier', "@typescript-eslint", "react-hooks", ],
+  plugins: ["@typescript-eslint",'react-refresh', 'import', 'prettier'],
   rules: {
     'react-refresh/only-export-components': [
       'warn',

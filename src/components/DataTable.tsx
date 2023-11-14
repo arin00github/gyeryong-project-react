@@ -58,16 +58,15 @@ const DataTable = <T extends object>(props: DataTableProps<T>) => {
         getCoreRowModel: getCoreRowModel()
     })
 
-
     return (
         <TableWrap>
             <TableContainer>
                 <TanstackReactTable>
                     <thead>
                         {projectTable.getHeaderGroups().map((headerGroup) => (
-                            <tr key={headerGroup.id}>
+                            <TableRow key={headerGroup.id}>
                                 {headerGroup.headers.map((header) => {
-                                    if(header.id === 'uid'){
+                                    if(header.id !== 'uid'){
                                         return (
                                             <th key={header.id}>{header.isPlaceholder ? null : flexRender(header.column.columnDef.header, header.getContext())}</th>
                                         )
@@ -75,12 +74,12 @@ const DataTable = <T extends object>(props: DataTableProps<T>) => {
                                         return null
                                     }
                                 })}
-                            </tr>
+                            </TableRow>
                         ))}
                     </thead>
                     <tbody>
                         {projectTable.getRowModel().rows.map((row) => (
-                            <tr key={row.id}>
+                            <TableRow key={row.id}>
                                 {row.getVisibleCells().map((cell) => {
                                     if(cell.column.id !== 'uid'){
                                         return (
@@ -90,7 +89,7 @@ const DataTable = <T extends object>(props: DataTableProps<T>) => {
                                         return null
                                     }
                                 })}
-                            </tr>
+                            </TableRow>
                         ))}
                     </tbody>
                 </TanstackReactTable>
@@ -108,5 +107,12 @@ const TableContainer = styled.div`
 const TableWrap = styled.div`
     width: 100%;
 `;
+
+const TableRow = styled.tr`
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #2d2d2d;
+`
 
 export default DataTable;

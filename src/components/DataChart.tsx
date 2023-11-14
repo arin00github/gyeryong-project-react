@@ -29,7 +29,6 @@ use([LineChart, LegendComponent, TitleComponent, TooltipComponent, GridComponent
 const DataChart = <T extends object>(props: DataChartProps<T>) => {
     
     const {chartData, xAxisKey, yAxisKey, totalCount} = props;
-    console.log('props', props)
 
     const [charInstance, setChartInstance] = useState<echarts.ECharts | null>(null)
 
@@ -105,6 +104,7 @@ const DataChart = <T extends object>(props: DataChartProps<T>) => {
     useEffect(() => {
         if(charInstance && yAxisKey){
             const yDataKey = yAxisKey.split("%")[0];
+            console.log("yDataKey", yDataKey)
             updatedOptions({chartData, xAxisKey, yAxisKey: yDataKey, totalCount})
         
         }

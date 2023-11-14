@@ -1,4 +1,4 @@
-import { ChevronsLeft, ChevronsRight } from "react-feather";
+import { ChevronLeft, ChevronRight, ChevronsLeft, ChevronsRight } from "react-feather";
 import styled from "styled-components";
 
 interface DataTablePaginationProps {
@@ -44,7 +44,7 @@ const DataTablePagination = (props:DataTablePaginationProps) => {
                   </PaginationItem>
                   <PaginationItem $isButton $isDisabled={currentPageNumber === 1 ? true : false}
                   onClick={() => handlePageChange(Math.max(1, currentPageNumber - 1))}>
-                     <ChevronsLeft />
+                     <ChevronLeft />
                   </PaginationItem>
                   {
                     totalPages > 0 ? (
@@ -60,16 +60,18 @@ const DataTablePagination = (props:DataTablePaginationProps) => {
                         <PaginationItem key="-">-</PaginationItem>
                     )
                   }
-                  <PaginationItem $isButton $isDisabled={currentPageNumber === 1 ? true : false}
-                  onClick={() => handlePageChange(Math.min(totalPages, currentPageNumber + 1))}>
-                     <ChevronsRight />
+                  <PaginationItem 
+                  $isButton $isDisabled={currentPageNumber === totalPages ? true : false}
+                    onClick={() => handlePageChange(Math.min(totalPages, currentPageNumber + 1))}>
+                     <ChevronRight />
                   </PaginationItem>
-                  <PaginationItem $isButton $isDisabled={currentPageNumber === 1 ? true : false}
+                  <PaginationItem $isButton $isDisabled={currentPageNumber === totalPages ? true : false}
                   onClick={() => handlePageChange(totalPages)}>
                      <ChevronsRight />
                   </PaginationItem>
                 </PaginationList>
             </PaginationNav>
+            <PaginationTotalCountContainer><strong>Total: {totalCount.toLocaleString()}</strong></PaginationTotalCountContainer>
         </PaginationContainer>
     )
 }

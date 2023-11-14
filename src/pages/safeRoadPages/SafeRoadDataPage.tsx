@@ -133,6 +133,7 @@ const SafeRoadDataPage = () => {
     /** [차트] 일별 안심길 데이터 현황 조회를 위한 parameter 정보 */
     const [safeRoadDailyDataParams, setSafeRoadDailyDataParams] = useState<GetSafeRoadDailyStatusParams>({deveui: undefined})
 
+    /** [API Hook] 일별 안심길 데이터현황 조회 */
     const {
         data: safeRoadDailyData,
         isLoading: safeRoadDailyLoading,
@@ -145,12 +146,17 @@ const SafeRoadDataPage = () => {
                 ...safeRoadDailyDataParams,
                 deveui: safeRoadDailyDataParams.deveui?.split('#')[0]
             }
+            console.log('safeRoadDailyDataParams', safeRoadDailyDataParams)
+            console.log('newParams', newParams)
             return getSafeRoadDailyStatus(newParams)
         }
     })
 
+    /**
+     * @function handleChartSearch
+     * @description 차트 검색 영역 [검색] 버튼 클릭 이벤트
+     */
     const handleChartSearch = (selectOptionSets: ChartSearchSelectedValue[]) => { 
-        console.log('handleChartSearch', selectOptionSets)
         const params:GetSafeRoadDailyStatusParams = {}
         selectOptionSets.forEach((searchSet) => {
             if(searchSet.selectOption){
