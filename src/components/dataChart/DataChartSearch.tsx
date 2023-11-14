@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { ChartSearchConfig, ChartSearchSelectedValue, SelectOption } from "../interfaces/common.interface"
+import { ChartSearchConfig, ChartSearchSelectedValue, SelectOption } from "../../interfaces/common.interface"
 import styled from "styled-components";
-import CommonSelect from "./CommonSelect";
-import CommonButton from "./CommonButton";
+import CommonSelect from "../common/CommonSelect";
+import CommonButton from "../common/CommonButton";
 import { config } from "process";
 
 interface DataChartSearchProps {

@@ -8,11 +8,11 @@ import { useEffect, useState } from "react";
 import { UseQueryResult, useQuery } from "@tanstack/react-query";
 import { getSafeRoadAssets, getSafeRoadDailyStatus, getSafeRoadStatusData } from "../../services/api/safeRoad.api";
 import { ErrorResponse } from "../../interfaces/http.interface";
-import DataTableSearch from "../../components/DataTableSearch";
-import EmptyBox from "../../components/EmptyBox";
-import DataTable from "../../components/DataTable";
-import DataChartSearch from "../../components/DataChartSearch";
-import DataChart from "../../components/DataChart";
+import DataTableSearch from "../../components/dataTable/DataTableSearch";
+import EmptyBox from "../../components/common/EmptyBox";
+import DataTable from "../../components/dataTable/DataTable";
+import DataChartSearch from "../../components/dataChart/DataChartSearch";
+import DataChart from "../../components/dataChart/DataChart";
 
 
 

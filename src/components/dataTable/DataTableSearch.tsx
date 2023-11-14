@@ -1,11 +1,11 @@
 import { ForwardedRef, createElement, forwardRef, useState } from "react"
-import { SelectOption, TableSearchConfig } from "../interfaces/common.interface"
+import { SelectOption, TableSearchConfig } from "../../interfaces/common.interface"
 import styled from "styled-components";
 import DatePicker, { registerLocale } from "react-datepicker";
-import CommonButton from "./CommonButton";
+import CommonButton from "../common/CommonButton";
 import dayjs from "dayjs";
 // import ko from "date-fns/locale/ko";
-import CommonSelect from "./CommonSelect";
+import CommonSelect from "../common/CommonSelect";
 
 // registerLocale("ko", ko);
 

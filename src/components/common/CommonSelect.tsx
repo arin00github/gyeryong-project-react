@@ -1,5 +1,5 @@
 import ReactSelect, { ContainerProps, IndicatorsContainerProps, MenuProps, OptionProps, SelectInstance, SingleValueProps, StylesConfig, components } from "react-select"
-import { SelectOption } from "../interfaces/common.interface"
+import { SelectOption } from "../../interfaces/common.interface"
 import { useRef } from "react";
 
 

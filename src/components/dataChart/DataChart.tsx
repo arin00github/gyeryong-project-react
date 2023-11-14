@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import EmptyBox from "./EmptyBox";
+import EmptyBox from "../common/EmptyBox";
 
 import type {LegendComponentOption, TitleComponentOption, TooltipComponentOption, GridComponentOption, DatasetComponentOption} from 'echarts/components'
 import type {LineSeriesOption} from 'echarts/charts';

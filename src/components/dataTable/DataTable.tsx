@@ -1,8 +1,8 @@
 import { AccessorFn, createColumnHelper, flexRender, getCoreRowModel, useReactTable } from "@tanstack/react-table";
 import { useState } from "react";
 import styled from "styled-components";
-import { TanstackReactTable } from "../styles/table.style";
-import { ColumnConfig } from "../interfaces/common.interface";
+import { TanstackReactTable } from "../../styles/table.style";
+import { ColumnConfig } from "../../interfaces/common.interface";
 import DataTablePagination from "./DataTablePagination";
 
 
