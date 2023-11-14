@@ -7,10 +7,6 @@ export const PageContainer = styled.div`
     overflow: hidden;
 `;
 
-export const MonitoringPageContainer = styled(PageContainer)`
-    padding: 0;
-`;
-
 export const LoadingWrap = styled.div`
     width: 100%;
     height: 384.5px;

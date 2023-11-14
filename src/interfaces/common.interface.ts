@@ -79,3 +79,17 @@ export interface filterCommonParams {
     pageNum: number;
     deveui: string;
 }
+
+
+/** 자산 목록 구성 interface */
+export interface PanelAssets {
+    uid: string;
+    name: string;
+    address: string;
+    properties: {
+        type: string;
+        equipments: {
+            [key: string]: string | number;
+        }[];
+    };
+}
