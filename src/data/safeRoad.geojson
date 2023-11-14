@@ -1,0 +1,2058 @@
+[
+    {
+        "type": "FeatureCollection",
+        "layer": "layer_relaxroad",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        979968.558025131,
+                        1808067.84858312
+                    ],
+                    "center": [
+                        979968.558025131,
+                        1808067.84858312
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.569e40e0-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길01_두계 삼거리",
+                    "uid": "569e40e0-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길01_두계 삼거리",
+                    "asset_type": "ETC",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "두마면 두계리 12-13",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "70b3d5003331006d",
+                    "speed_limit": 40,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.214Z",
+                    "upd_date": null,
+                    "sync_date": "2023-11-14T01:48:30.535Z",
+                    "car_speed1": 32,
+                    "car_speed2": 31,
+                    "car_speed3": 30,
+                    "car_speed4": 20,
+                    "car_speed5": 19,
+                    "car_speed6": 17,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        978330.933724768,
+                        1807376.0800014
+                    ],
+                    "center": [
+                        978330.933724768,
+                        1807376.0800014
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.569f0430-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길02_대실 이케아 입구",
+                    "uid": "569f0430-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길02_대실 이케아 입구",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "두마면 농소리 1087",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "70b3d50038120110",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.218Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        979930.848709568,
+                        1807100.93156747
+                    ],
+                    "center": [
+                        979930.848709568,
+                        1807100.93156747
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.569f7960-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길03_두마 우편집중국 앞",
+                    "uid": "569f7960-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길03_두마 우편집중국 앞",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "두마면 왕대리 278",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 40,
+                    "dfs_type": "전기",
+                    "reg_date": "2023-10-05T05:37:57.220Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        980080.724900925,
+                        1807078.73590103
+                    ],
+                    "center": [
+                        980080.724900925,
+                        1807078.73590103
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.569fc780-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길04_두마 공공직장어린이집 앞",
+                    "uid": "569fc780-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길04_두마 공공직장어린이집 앞",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "두마면 농소리 1093",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "미설치",
+                    "reg_date": "2023-10-05T05:37:57.222Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        980096.430236199,
+                        1807032.88988737
+                    ],
+                    "center": [
+                        980096.430236199,
+                        1807032.88988737
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a015a0-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길05_두마 황룡사 인근",
+                    "uid": "56a015a0-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길05_두마 황룡사 인근",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "두마면 왕대리 246-1",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.224Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        976417.015758887,
+                        1809876.66582879
+                    ],
+                    "center": [
+                        976417.015758887,
+                        1809876.66582879
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a03cb0-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길06_엄사초등학교",
+                    "uid": "56a03cb0-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길06_엄사초등학교",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 엄사리 563",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.226Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        976488.959336317,
+                        1809881.12965936
+                    ],
+                    "center": [
+                        976488.959336317,
+                        1809881.12965936
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a08ad0-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길07_엄사초등학교",
+                    "uid": "56a08ad0-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길07_엄사초등학교",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 엄사리 569",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.228Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        976402.026329107,
+                        1809581.65645894
+                    ],
+                    "center": [
+                        976402.026329107,
+                        1809581.65645894
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a0d8f0-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길08_엄사3리경로당 삼거리",
+                    "uid": "56a0d8f0-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길08_엄사3리경로당 삼거리",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 엄사리 232-102",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.230Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        976453.662402107,
+                        1809481.46570044
+                    ],
+                    "center": [
+                        976453.662402107,
+                        1809481.46570044
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a12710-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길09_삼진아파트 정문",
+                    "uid": "56a12710-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길09_삼진아파트 정문",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 엄사리 226-24",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "전기",
+                    "reg_date": "2023-10-05T05:37:57.231Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        976300.964758753,
+                        1810064.54901362
+                    ],
+                    "center": [
+                        976300.964758753,
+                        1810064.54901362
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a14e20-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길10_엄사행정복지센터 앞",
+                    "uid": "56a14e20-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길10_엄사행정복지센터 앞",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 엄사리 573",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 40,
+                    "dfs_type": "전기",
+                    "reg_date": "2023-10-05T05:37:57.233Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        976340.046576153,
+                        1810071.43059196
+                    ],
+                    "center": [
+                        976340.046576153,
+                        1810071.43059196
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a17530-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길11_엄사행정복지센터 앞",
+                    "uid": "56a17530-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길11_엄사행정복지센터 앞",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 엄사리 573",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 40,
+                    "dfs_type": "미설치",
+                    "reg_date": "2023-10-05T05:37:57.234Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        976120.355401467,
+                        1809958.78079225
+                    ],
+                    "center": [
+                        976120.355401467,
+                        1809958.78079225
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a1c350-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길12_파라디아 세븐일레븐 앞",
+                    "uid": "56a1c350-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길12_파라디아 세븐일레븐 앞",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 엄사리 573",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 40,
+                    "dfs_type": "전기",
+                    "reg_date": "2023-10-05T05:37:57.235Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        976011.455460689,
+                        1809643.84277584
+                    ],
+                    "center": [
+                        976011.455460689,
+                        1809643.84277584
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a1ea60-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길13_파라디아 정문",
+                    "uid": "56a1ea60-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길13_파라디아 정문",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 엄사리 588",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.236Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        975995.18886053,
+                        1809574.45106911
+                    ],
+                    "center": [
+                        975995.18886053,
+                        1809574.45106911
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a21170-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길14_파라디아 옆 삼거리",
+                    "uid": "56a21170-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길14_파라디아 옆 삼거리",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 엄사리 589",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.237Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        976189.446872356,
+                        1809577.79916423
+                    ],
+                    "center": [
+                        976189.446872356,
+                        1809577.79916423
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a23880-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길15_파라디아-신도초 구간",
+                    "uid": "56a23880-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길15_파라디아-신도초 구간",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 엄사리 231-6",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.238Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        976684.783802138,
+                        1809433.14686466
+                    ],
+                    "center": [
+                        976684.783802138,
+                        1809433.14686466
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a25f90-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길16_삼진삼거리",
+                    "uid": "56a25f90-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길16_삼진삼거리",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 엄사리 207-2",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.240Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        976659.744479472,
+                        1809405.92747698
+                    ],
+                    "center": [
+                        976659.744479472,
+                        1809405.92747698
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a2adb0-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길17_삼진삼거리",
+                    "uid": "56a2adb0-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길17_삼진삼거리",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 엄사리 576",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.241Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        975858.74826265,
+                        1809953.06987733
+                    ],
+                    "center": [
+                        975858.74826265,
+                        1809953.06987733
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a2d4c0-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길18_엄사중-향한교회 구간",
+                    "uid": "56a2d4c0-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길18_엄사중-향한교회 구간",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 엄사리 573",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 40,
+                    "dfs_type": "전기",
+                    "reg_date": "2023-10-05T05:37:57.242Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        975088.290604146,
+                        1809715.87548011
+                    ],
+                    "center": [
+                        975088.290604146,
+                        1809715.87548011
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a2fbd0-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길19_엄사중-향한교회 구간",
+                    "uid": "56a2fbd0-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길19_엄사중-향한교회 구간",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 향한리 30-9",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 40,
+                    "dfs_type": "전기",
+                    "reg_date": "2023-10-05T05:37:57.243Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        974372.305335048,
+                        1807986.0339156
+                    ],
+                    "center": [
+                        974372.305335048,
+                        1807986.0339156
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a322e0-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길20_도곡 어린이감성체험장",
+                    "uid": "56a322e0-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길20_도곡 어린이감성체험장",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 도곡리 152-4",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.245Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        975674.855996615,
+                        1808676.43724201
+                    ],
+                    "center": [
+                        975674.855996615,
+                        1808676.43724201
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a349f0-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길21_광석-유동 구간[소라실]",
+                    "uid": "56a349f0-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길21_광석-유동 구간[소라실]",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 유동리 280-10",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.246Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        977236.225590407,
+                        1812084.03251143
+                    ],
+                    "center": [
+                        977236.225590407,
+                        1812084.03251143
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a39810-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길22_본부교회 원형로타리",
+                    "uid": "56a39810-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길22_본부교회 원형로타리",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "신도안면 남선리 1347",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 20,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.247Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        977173.467416663,
+                        1812083.08796674
+                    ],
+                    "center": [
+                        977173.467416663,
+                        1812083.08796674
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a3bf20-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길23_본부교회 원형로타리",
+                    "uid": "56a3bf20-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길23_본부교회 원형로타리",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "신도안면 남선리 1347",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 20,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.248Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        977140.177212623,
+                        1811680.42004761
+                    ],
+                    "center": [
+                        977140.177212623,
+                        1811680.42004761
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a3e630-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길24_품안마을아파트 삼거리",
+                    "uid": "56a3e630-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길24_품안마을아파트 삼거리",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "신도안면 남선리 1314",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.251Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        977115.046372155,
+                        1810899.48960058
+                    ],
+                    "center": [
+                        977115.046372155,
+                        1810899.48960058
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a43450-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길25_용남고등학교",
+                    "uid": "56a43450-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길25_용남고등학교",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "신도안면 남선리 1276",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.252Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        977096.185835976,
+                        1811170.40890445
+                    ],
+                    "center": [
+                        977096.185835976,
+                        1811170.40890445
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a48270-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길26_삼위일체성당",
+                    "uid": "56a48270-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길26_삼위일체성당",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "신도안면 남선리 1336",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.253Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        977101.650925326,
+                        1811165.84673154
+                    ],
+                    "center": [
+                        977101.650925326,
+                        1811165.84673154
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a4a980-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길27_삼위일체성당",
+                    "uid": "56a4a980-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길27_삼위일체성당",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "신도안면 남선리 1336",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.255Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        977070.875946072,
+                        1810868.10440133
+                    ],
+                    "center": [
+                        977070.875946072,
+                        1810868.10440133
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a4d090-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길28_용남고등학교",
+                    "uid": "56a4d090-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길28_용남고등학교",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "신도안면 남선리 1276",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.256Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        977178.132786352,
+                        1810953.78601825
+                    ],
+                    "center": [
+                        977178.132786352,
+                        1810953.78601825
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a4f7a0-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길29_오토월드 삼거리",
+                    "uid": "56a4f7a0-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길29_오토월드 삼거리",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "신도안면 남선리 1276",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "미설치",
+                    "reg_date": "2023-10-05T05:37:57.257Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        977304.784917276,
+                        1809286.31102189
+                    ],
+                    "center": [
+                        977304.784917276,
+                        1809286.31102189
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a51eb0-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길30_천마사 입구 삼거리",
+                    "uid": "56a51eb0-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길30_천마사 입구 삼거리",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "금암동 275-2",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 40,
+                    "dfs_type": "전기",
+                    "reg_date": "2023-10-05T05:37:57.258Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        977151.730318924,
+                        1808115.72070291
+                    ],
+                    "center": [
+                        977151.730318924,
+                        1808115.72070291
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a56cd0-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길31_금암초등학교",
+                    "uid": "56a56cd0-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길31_금암초등학교",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "금암동 489",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "미설치",
+                    "reg_date": "2023-10-05T05:37:57.259Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        977129.474010449,
+                        1808191.3162082
+                    ],
+                    "center": [
+                        977129.474010449,
+                        1808191.3162082
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a593e0-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길32_금암초등학교",
+                    "uid": "56a593e0-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길32_금암초등학교",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "금암동 489",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "전기",
+                    "reg_date": "2023-10-05T05:37:57.261Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        977674.221125112,
+                        1808363.27009015
+                    ],
+                    "center": [
+                        977674.221125112,
+                        1808363.27009015
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a5e200-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길33_고속버스 주차장 입구",
+                    "uid": "56a5e200-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길33_고속버스 주차장 입구",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "금암동 480",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.263Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        978026.390462453,
+                        1808752.14870891
+                    ],
+                    "center": [
+                        978026.390462453,
+                        1808752.14870891
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a63020-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길34_노인회 계룡시지회 앞",
+                    "uid": "56a63020-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길34_노인회 계룡시지회 앞",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "금암동 456",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "전기",
+                    "reg_date": "2023-10-05T05:37:57.265Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        978362.949554631,
+                        1808474.44683724
+                    ],
+                    "center": [
+                        978362.949554631,
+                        1808474.44683724
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a65730-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길35_금암 상록어린이집 앞",
+                    "uid": "56a65730-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길35_금암 상록어린이집 앞",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "금암동 456",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "전기",
+                    "reg_date": "2023-10-05T05:37:57.266Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        978382.854569155,
+                        1808316.11356583
+                    ],
+                    "center": [
+                        978382.854569155,
+                        1808316.11356583
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a67e40-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길36_금암 노인종합복지관 앞",
+                    "uid": "56a67e40-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길36_금암 노인종합복지관 앞",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "금암동 456",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.267Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        978360.160129428,
+                        1808291.87837427
+                    ],
+                    "center": [
+                        978360.160129428,
+                        1808291.87837427
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a6cc60-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길37_금암 경사로운교회 앞",
+                    "uid": "56a6cc60-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길37_금암 경사로운교회 앞",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "금암동 456",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "전기",
+                    "reg_date": "2023-10-05T05:37:57.268Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        978938.990239631,
+                        1808383.07633264
+                    ],
+                    "center": [
+                        978938.990239631,
+                        1808383.07633264
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a6f370-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길38_두마 계룡역 앞",
+                    "uid": "56a6f370-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길38_두마 계룡역 앞",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "두마면 두계리 136-220",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 40,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.269Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        978224.073163768,
+                        1807856.41088422
+                    ],
+                    "center": [
+                        978224.073163768,
+                        1807856.41088422
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a71a80-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길39_계룡고등학교",
+                    "uid": "56a71a80-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길39_계룡고등학교",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "금암동 479",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 40,
+                    "dfs_type": "전기",
+                    "reg_date": "2023-10-05T05:37:57.270Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        976942.359595911,
+                        1810723.58132679
+                    ],
+                    "center": [
+                        976942.359595911,
+                        1810723.58132679
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a74190-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길40_두계천[용남교]",
+                    "uid": "56a74190-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길40_두계천[용남교]",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 엄사리 447-1",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.271Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        977212.993016174,
+                        1810379.67760845
+                    ],
+                    "center": [
+                        977212.993016174,
+                        1810379.67760845
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a768a0-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길41_두계천[정자]",
+                    "uid": "56a768a0-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길41_두계천[정자]",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 엄사리 78-2",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "미설치",
+                    "reg_date": "2023-10-05T05:37:57.272Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        977325.502367787,
+                        1810136.35533769
+                    ],
+                    "center": [
+                        977325.502367787,
+                        1810136.35533769
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a78fb0-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길42_두계천[평리2길삼거리]",
+                    "uid": "56a78fb0-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길42_두계천[평리2길삼거리]",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 엄사리 66-3",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.273Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        977375.011342777,
+                        1809940.67257421
+                    ],
+                    "center": [
+                        977375.011342777,
+                        1809940.67257421
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a7b6c0-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길43_두계천[엄사수문]",
+                    "uid": "56a7b6c0-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길43_두계천[엄사수문]",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 엄사리 75-3",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.274Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        977415.045661099,
+                        1809692.10547176
+                    ],
+                    "center": [
+                        977415.045661099,
+                        1809692.10547176
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a804e0-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길44_두계천[파스쿠찌]",
+                    "uid": "56a804e0-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길44_두계천[파스쿠찌]",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 엄사리 28-13",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.276Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        977724.175749092,
+                        1809421.43738178
+                    ],
+                    "center": [
+                        977724.175749092,
+                        1809421.43738178
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a82bf0-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길45_두계천[GS충전소]",
+                    "uid": "56a82bf0-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길45_두계천[GS충전소]",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 엄사리 447-95",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.277Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        977893.046008133,
+                        1809258.06365788
+                    ],
+                    "center": [
+                        977893.046008133,
+                        1809258.06365788
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a85300-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길46_두계천[계룡대교옆길]",
+                    "uid": "56a85300-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길46_두계천[계룡대교옆길]",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "금암동 407-75",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.278Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        978253.061439251,
+                        1808852.51684284
+                    ],
+                    "center": [
+                        978253.061439251,
+                        1808852.51684284
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a87a10-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길47_두계천[장어와흑돼지]",
+                    "uid": "56a87a10-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길47_두계천[장어와흑돼지]",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "금암동 450-1",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.279Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        978598.388725003,
+                        1808705.79946666
+                    ],
+                    "center": [
+                        978598.388725003,
+                        1808705.79946666
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a8a120-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길48_두계천[팥죽다리]",
+                    "uid": "56a8a120-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길48_두계천[팥죽다리]",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "두마면 두계리 154-1",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.280Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        975385.896243434,
+                        1807429.16836384
+                    ],
+                    "center": [
+                        975385.896243434,
+                        1807429.16836384
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a8c830-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길49_연산천[효성요양원 앞]",
+                    "uid": "56a8c830-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길49_연산천[효성요양원 앞]",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 광석리 160-9",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 30,
+                    "dfs_type": "태양광",
+                    "reg_date": "2023-10-05T05:37:57.281Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        975255.655753529,
+                        1807748.32422776
+                    ],
+                    "center": [
+                        975255.655753529,
+                        1807748.32422776
+                    ]
+                },
+                "properties": {
+                    "id": "layer_relaxroad.56a8ef40-6341-11ee-b467-793e2b30119f",
+                    "show_label": "안심길50_연산천[광석향한길]",
+                    "uid": "56a8ef40-6341-11ee-b467-793e2b30119f",
+                    "area": "44250",
+                    "name": "안심길50_연산천[광석향한길]",
+                    "asset_type": "",
+                    "install_date": "",
+                    "asset_id": "",
+                    "address": "엄사면 광석리 186-3",
+                    "model": "",
+                    "state": "ok",
+                    "sublayer_id": "default",
+                    "deveui": "",
+                    "speed_limit": 40,
+                    "dfs_type": "전기",
+                    "reg_date": "2023-10-05T05:37:57.282Z",
+                    "upd_date": null,
+                    "sync_date": null,
+                    "car_speed1": null,
+                    "car_speed2": null,
+                    "car_speed3": null,
+                    "car_speed4": null,
+                    "car_speed5": null,
+                    "car_speed6": null,
+                    "sublayer_style": {}
+                }
+            }
+        ]
+    }
+]

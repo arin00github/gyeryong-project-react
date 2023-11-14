@@ -1,6 +1,5 @@
 import 'styled-components'
 
-
 declare module 'styled-components' {
     export interface DefaultTheme {
         whiteAlpha100: string;
@@ -10,3 +9,4 @@ declare module 'styled-components' {
         whiteAlpha500: string;
     }
 }
+

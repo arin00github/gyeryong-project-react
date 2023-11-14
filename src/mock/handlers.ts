@@ -1,8 +1,10 @@
 import { http, HttpResponse } from "msw";
-import { SAFE_ROAD_API_URL } from "../utils/constant";
+import { FETCH_API_URLS, SAFE_ROAD_API_URL } from "../utils/constant";
 import { makeSafeRoadData, safeRoadAssetMockupData, safeRoadDailyStatusMockupData, safeRoadDataArray, safeRoadStatusMockupData } from "../data/safeRoad.data";
-import { GetSafeRoadDailyStatusParams, GetSafeRoadStatusParams, SafeRoadStatusResult } from "../interfaces/safeRoad.interface";
-
+import { GetSafeRoadStatusParams } from "../interfaces/safeRoad.interface";
+import { FeatureCollection } from "geojson";
+import safeRoadGeojson from '../data/safeRoad.geodata';
+import { crossWalkSymbol } from "../data/layerStyle.data";
 
 
 export const handlers = [
@@ -18,11 +20,9 @@ export const handlers = [
     }),
     http.post(SAFE_ROAD_API_URL.getHistory_test, async({request}) => {
         const requestBody: GetSafeRoadStatusParams = await request.json() as GetSafeRoadStatusParams;
-        console.log('requestBody', requestBody)
 
         const devArray = safeRoadAssetMockupData.response.results.map(dev => dev.deveui);
         const targetEui = devArray.find(dev => dev === requestBody.deveui);
-        console.log('targetEui', targetEui)
 
         if (targetEui) {
             const resultData = requestBody.deveui
@@ -38,5 +38,28 @@ export const handlers = [
         } else {
             return HttpResponse.error();
         }
-    })
+    }),
+    /**********************************************************************************************
+     * 모니터링
+     *********************************************************************************************/
+    http.post(FETCH_API_URLS.postFeature_test, async({request}) => {
+       const requestBody = await request.json() as Record<string, any>;
+       const {layerId} = requestBody;
+       //new HttpResponse('postFeature API success', {status: 200});
+       if(layerId === 'layer_relaxroad'){
+           return HttpResponse.json(safeRoadGeojson as unknown as FeatureCollection);
+       } else {
+           return HttpResponse.error();
+       }
+    }),
+    http.post(FETCH_API_URLS.postLayerStyle_test, async({request}) => {
+        const requestBody = await request.json() as Record<string, any>;
+        const {layerId} = requestBody;
+        //new HttpResponse('postFeature API success', {status: 200});
+        if(layerId === 'layer_relaxroad'){
+            return HttpResponse.json(crossWalkSymbol.response.results);
+        } else {
+            return HttpResponse.error();
+        }
+     }),
 ]
