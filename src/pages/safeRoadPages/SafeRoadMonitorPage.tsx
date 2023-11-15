@@ -11,8 +11,7 @@ import { convertSvgSize, moveMapByCoordinates } from "../../baseMap/baseMap.util
 import Map from "ol/Map";
 import { baseMapState } from "../../services/recoil/baseMap.state";
 import { toggleSelectedFeature } from "../../baseMap/baseMap.feature";
-import { transform } from "ol/proj";
-import { MAP_PROJECTIONS } from "../../baseMap/baseMap.projections";
+
 
 const SafeRoadMonitorPage = () => {
 
@@ -27,15 +26,12 @@ const SafeRoadMonitorPage = () => {
     const [convertAssetData, setConvertAssetData] = useState<PanelAssets[]>()
 
     const mapClickPosCallback = (positionInfo:MapClickPositionInfo) => {
-        
+        console.log('mapClickPosCallback', positionInfo)
         if(baseMapObject){
-            const center =  transform(positionInfo.center, MAP_PROJECTIONS.baro.projectionName, 'EPSG:4326')
-            console.log('center', center)
             removeSelectedFeature()
             moveMapByCoordinates(baseMapObject, positionInfo.center)
             
         }
-        console.log('mapClickPosCallback', positionInfo)
     }
 
     /**
@@ -82,8 +78,6 @@ const SafeRoadMonitorPage = () => {
         } 
     }, [layerCreationConfig])
 
-    console.log('layerCreationConfig', layerCreationConfig)
-
     return (
         <PageContainer>
             {convertAssetData && layerCreationConfig &&
@@ -96,7 +90,8 @@ const SafeRoadMonitorPage = () => {
                 />
             }
 
-            <BaseMap mapCreationConfig={{...SMART_SAFE_ROAD_MAP_CONFIG,}}
+            <BaseMap 
+            mapCreationConfig={{...SMART_SAFE_ROAD_MAP_CONFIG,}}
             layerCreationConfig={layerCreationConfig}
             mapClickPosCallback={mapClickPosCallback}
             />

@@ -80,7 +80,6 @@ export const getPointFeatures = (params: GetPointFeaturesParams) => {
             mapObject.getTargetElement().style.cursor = hit ? 'pointer' : '';
         })
         mapObject.on('singleclick', (evt) => {
-            console.log('evt', evt)
             mapClickPositionCallback({
                 center: evt.coordinate,
                 convert_center: transform(evt.coordinate, DISPLAY_PROJECTION_NAME, MAP_PROJECTIONS.baro.projectionName),

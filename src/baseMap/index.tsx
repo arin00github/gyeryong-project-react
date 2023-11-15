@@ -45,9 +45,9 @@ const BaseMap = (props:BaseMapProps) => {
             setDefaultProjection()
             const tileLayers = getTileLayer();
             const fromLonLatCoordinate = transformFromLonLat(mapCreationConfig.center, MAP_PROJECTIONS.baro.projectionName);
-            console.log('fromLonLatCoordinate', fromLonLatCoordinate)
+
             const view = new View({
-                center: proj.fromLonLat(mapCreationConfig.center, MAP_PROJECTIONS.baro.projectionName),
+                center: fromLonLatCoordinate,
                 zoom: mapCreationConfig.zoom,
                 minZoom: mapCreationConfig.minZoom,
                 maxZoom: mapCreationConfig.maxZoom,
@@ -76,7 +76,6 @@ const BaseMap = (props:BaseMapProps) => {
         }
 
     }, [baseMapRef.current, layerCreationConfig])
-    console.log('baseMap', baseMap)
 
 
     return (

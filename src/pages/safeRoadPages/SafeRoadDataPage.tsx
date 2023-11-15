@@ -28,9 +28,13 @@ const columnLabel: columnInfoType[] = [
     { id: "devnm", label: "장비명" },
     { id: "deveui", label: "장비번호" },
     { id: "devstate", label: "상태" },
-    { id: "fast_pass", label: "과속차량 통과대수", unit: "대" },
-    { id: "normal_pass", label: "정속차량 통과대수", unit: "대" },
-    { id: "speed_average", label: "전체평균속도(km/h)", unit: "km/h" },
+    { id: "speed_limit", label: "제한 속도(km/h)", unit: "km/h" },
+    { id: "car_speed1", label: "차 속도1", unit: "km/h" },
+    { id: "car_speed2", label: "차 속도2", unit: "km/h" },
+    { id: "car_speed3", label: "차 속도3", unit: "km/h" },
+    { id: "car_speed4", label: "차 속도4", unit: "km/h" },
+    { id: "car_speed5", label: "차 속도5", unit: "km/h" },
+    { id: "car_speed6", label: "차 속도6", unit: "km/h" },
 ];
 
 
@@ -123,8 +127,12 @@ const SafeRoadDataPage = () => {
 
     /** 두 번째 셀렉트 하드코딩 */
     const chartYAxisSelectConfig = [
-        { value: "fast_pass", label: "과속차량 통과대수" },
-        { value: "normal_pass", label: "정속차량 통과대수" },
+        { value: "car_speed1", label: "차 속도1" },
+        { value: "car_speed2", label: "차 속도2" },
+        { value: "car_speed3", label: "차 속도3" },
+        { value: "car_speed4", label: "차 속도4" },
+        { value: "car_speed5", label: "차 속도5" },
+        { value: "car_speed6", label: "차 속도6" },
     ];
 
     /** [차트] 검색 영역 구성을 위한 설정 정보 */
@@ -146,8 +154,6 @@ const SafeRoadDataPage = () => {
                 ...safeRoadDailyDataParams,
                 deveui: safeRoadDailyDataParams.deveui?.split('#')[0]
             }
-            console.log('safeRoadDailyDataParams', safeRoadDailyDataParams)
-            console.log('newParams', newParams)
             return getSafeRoadDailyStatus(newParams)
         }
     })
