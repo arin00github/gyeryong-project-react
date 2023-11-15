@@ -21,7 +21,7 @@ export interface GetFineDustAssetResponse extends HttpResponse {
 
 
 /** 스마트 미세먼지 데이터 현황 목록 조회 params */
-export interface GetFineDustDataPamras {
+export interface GetFineDustDataParams {
     /** place ID */
     deveui?: string;
     /** 조회 시작일자 */
@@ -80,7 +80,7 @@ export interface GetFineDustDailyResult {
 }
 
 /** 일별 스마트 미세먼지 데이터 현황 목록 조회 response */
-export interface GetSmartFineDustDailyResponse extends HttpResponse {
+export interface GetFineDustDailyResponse extends HttpResponse {
 
     response: {
         results: GetFineDustDailyResult[];

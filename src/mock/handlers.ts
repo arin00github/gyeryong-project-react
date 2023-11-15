@@ -9,7 +9,7 @@ import { fineDustAssetMockupData, fineDustDailyMockupData, finedustResourceArray
 import { crossWalkSourceArray, crossWarkAssetData, crossWarkDailyData, makeCrossWalkData, } from "../data/crossWalk.data";
 import { makeBusData, smartBusAssetMockupData, smartBusSourceArray } from "../data/bus.data";
 import { GetCrossWalkEventParams } from "../interfaces/crossWalk.interface";
-import { GetFineDustDataPamras } from "../interfaces/fineDust.interface";
+import { GetFineDustDataParams } from "../interfaces/fineDust.interface";
 import { GetSmartBusDataParams } from "../interfaces/smartBus.interface";
 
 
@@ -57,7 +57,7 @@ export const handlers = [
         return HttpResponse.json(fineDustDailyMockupData);
     }),
     http.post(FINE_DUST_API_URL.getHistory_test, async({request}) => {
-        const requestBody = await request.json() as GetFineDustDataPamras
+        const requestBody = await request.json() as GetFineDustDataParams
 
         const devArray = fineDustAssetMockupData.response.results.map(dev => dev.deveui);
         const targetEui = devArray.find(dev => dev === requestBody.deveui);
