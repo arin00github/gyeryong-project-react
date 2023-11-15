@@ -140,14 +140,3 @@ export interface MetersPerUnit {
     [key: string]: number;
 }
 
-/** 지도 위 표현되는 자산을 선택/선택 해제한 경우 강조 표시를 하기 위한 함수의 parameter */
-export interface ToggleSelectedFeatureParams {
-    /** 지도 객체 */
-    mapObject: Map | undefined;
-    /** toggle 대상 레이어 id */
-    layerId?: string;
-    /** toggle 대상 선택한 자산의 id */
-    selectedId?: string | undefined;
-    /** png로 변환한 지도에 표출되는 선택 표시 아이콘 */
-    selectedMarkerBase64?: string;
-}

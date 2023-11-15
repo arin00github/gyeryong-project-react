@@ -4,11 +4,11 @@ export const MAP_CONFIG = {
     /** 초기 지도 화면의 중심 좌표 */
     center: [127.24854256142, 36.274558995858],
     /** 지도의 최소 줌 레벨 */
-    minZoom: 10,
+    minZoom: 6,
     /** 지도의 최대 줌 레벨 */
     maxZoom: 20,
     /** 초기 지도 화면의 줌 레벨 */
-    zoom: 12,
+    zoom: 8,
     /** 기본 subLayer, 스타일 처리용 */
     subLayerId: "default",
     /** 지도 위 자산으로 표현되는 icon의 가로 너비, px 단위 */

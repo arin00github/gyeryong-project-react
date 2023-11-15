@@ -1,7 +1,7 @@
 import { MapContainer } from "./baseMap.styles"
 import { MAP_PROJECTIONS } from "./baseMap.projections";
 import { Map, View } from "ol";
-import { toLonLat } from 'ol/proj'
+import * as proj from 'ol/proj'
 import { defaults as defaultControls } from "ol/control";
 import { defaults as defaultInteractions } from "ol/interaction";
 import PinchZoom from "ol/interaction/PinchZoom";
@@ -44,16 +44,18 @@ const BaseMap = (props:BaseMapProps) => {
         if(mapContainerRef.current && !baseMapRef.current){
             setDefaultProjection()
             const tileLayers = getTileLayer();
-            const fromLonLatCoordinate = transformFromLonLat(mapCreationConfig.center, MAP_PROJECTIONS.baro.projectionName)
+            const fromLonLatCoordinate = transformFromLonLat(mapCreationConfig.center, MAP_PROJECTIONS.baro.projectionName);
+            console.log('fromLonLatCoordinate', fromLonLatCoordinate)
             const view = new View({
-                center: fromLonLatCoordinate,
+                center: proj.fromLonLat(mapCreationConfig.center, MAP_PROJECTIONS.baro.projectionName),
                 zoom: mapCreationConfig.zoom,
                 minZoom: mapCreationConfig.minZoom,
                 maxZoom: mapCreationConfig.maxZoom,
                 projection: MAP_PROJECTIONS.baro.projectionName,
-                constrainResolution: true,
-                smoothResolutionConstraint: false,
-                smoothExtentConstraint: false,
+                resolutions: MAP_PROJECTIONS.baro.resolution,
+                //constrainResolution: true,
+                //smoothResolutionConstraint: false,
+                //smoothExtentConstraint: false,
             })
             baseMapRef.current = new Map({
                 controls: defaultControls({zoom: false, rotate: false}),
@@ -71,12 +73,10 @@ const BaseMap = (props:BaseMapProps) => {
 
         if(baseMapRef.current && layerCreationConfig){
             addFeatureLayer({ mapObject: baseMapRef.current, mapCreationConfig, layerCreationConfig, mapClickPositionCallback: mapClickPosCallback})
-            baseMapRef.current.on('singleclick', (evt) => {
-                console.log('evt', evt.map.getEventCoordinate(evt.originalEvent))
-            })
         }
 
     }, [baseMapRef.current, layerCreationConfig])
+    console.log('baseMap', baseMap)
 
 
     return (

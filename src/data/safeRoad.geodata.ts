@@ -7,8 +7,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [902409.3182339983, 1949199.983888682],
-                    "center": [902409.3182339983, 1949199.983888682]
+                    "coordinates": [ 979968.558025131,
+                        1808067.84858312],
+                    "center": [ 979968.558025131,
+                        1808067.84858312]
                 },
                 properties: {
                     id: "layer_relaxroad.569e40e0-6341-11ee-b467-793e2b30119f",
@@ -42,8 +44,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [903166.2301739295, 1949344.0561526392],
-                    "center": [903166.2301739295, 1949344.0561526392]
+                    "coordinates": [978330.933724768,
+                        1807376.0800014],
+                    "center": [978330.933724768,
+                        1807376.0800014]
                 },
                 properties: {
                     id: "layer_relaxroad.569f0430-6341-11ee-b467-793e2b30119f",
@@ -77,8 +81,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [904468.976975866, 1948785.7360946666],
-                    "center": [904468.976975866, 1948785.7360946666]
+                    "coordinates": [979930.848709568,
+                        1807100.93156747],
+                    "center": [979930.848709568,
+                        1807100.93156747]
                 },
                 properties: {
                     id: "layer_relaxroad.569f7960-6341-11ee-b467-793e2b30119f",
@@ -112,8 +118,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [904835.5138457848, 1948242.6364713747],
-                    "center": [904835.5138457848, 1948242.6364713747]
+                    "coordinates": [980080.724900925,
+                        1807078.73590103],
+                    "center": [980080.724900925,
+                        1807078.73590103]
                 },
                 properties: {
                     id: "layer_relaxroad.569fc780-6341-11ee-b467-793e2b30119f",
@@ -148,12 +156,12 @@ export default [
                 geometry: {
                     type: "Point",
                     "coordinates": [
-                        904096.430236199,
-                        1943452.88988737
+                        980096.430236199,
+                        1807032.88988737
                     ],
                     "center": [
-                        904096.430236199,
-                        1943452.88988737
+                        980096.430236199,
+                        1807032.88988737
                     ]
                 },
                 properties: {
@@ -189,12 +197,12 @@ export default [
                 geometry: {
                     type: "Point",
                     "coordinates": [
-                        906417.015758887,
-                        1939876.66582879
+                        976417.015758887,
+                        1809876.66582879
                     ],
                     "center": [
-                        906417.015758887,
-                        1939876.66582879
+                        976417.015758887,
+                        1809876.66582879
                     ]
                 },
                 properties: {
@@ -229,8 +237,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [901514.225295793, 1951783.4354715094],
-                    "center": [901514.225295793, 1951783.4354715094]
+                    "coordinates": [976488.959336317,
+                        1809881.12965936],
+                    "center": [976488.959336317,
+                        1809881.12965936]
                 },
                 properties: {
                     id: "layer_relaxroad.56a08ad0-6341-11ee-b467-793e2b30119f",
@@ -264,8 +274,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [905142.3069688481, 1947770.4723633614],
-                    "center": [905142.3069688481, 1947770.4723633614]
+                    "coordinates": [976402.026329107,
+                        1809581.65645894],
+                    "center": [976402.026329107,
+                        1809581.65645894]
                 },
                 properties: {
                     id: "layer_relaxroad.56a0d8f0-6341-11ee-b467-793e2b30119f",
@@ -299,8 +311,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [906220.771354334, 1948080.6501733463],
-                    "center": [906220.771354334, 1948080.6501733463]
+                    "coordinates": [976453.662402107,
+                        1809481.46570044],
+                    "center": [976453.662402107,
+                        1809481.46570044]
                 },
                 properties: {
                     id: "layer_relaxroad.56a12710-6341-11ee-b467-793e2b30119f",
@@ -334,8 +348,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [904144.966010589, 1949097.078996835],
-                    "center": [904144.966010589, 1949097.078996835]
+                    "coordinates": [976300.964758753,
+                        1810064.54901362],
+                    "center": [976300.964758753,
+                        1810064.54901362]
                 },
                 properties: {
                     id: "layer_relaxroad.56a14e20-6341-11ee-b467-793e2b30119f",
@@ -369,8 +385,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [903944.5434256758, 1948949.148041304],
-                    "center": [903944.5434256758, 1948949.148041304]
+                    "coordinates": [976340.046576153,
+                        1810071.43059196],
+                    "center": [976340.046576153,
+                        1810071.43059196]
                 },
                 properties: {
                     id: "layer_relaxroad.56a17530-6341-11ee-b467-793e2b30119f",
@@ -404,8 +422,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [903777.5246049147, 1949054.131300068],
-                    "center": [903777.5246049147, 1949054.131300068]
+                    "coordinates": [976120.355401467,
+                        1809958.78079225],
+                    "center": [976120.355401467,
+                        1809958.78079225]
                 },
                 properties: {
                     id: "layer_relaxroad.56a1c350-6341-11ee-b467-793e2b30119f",
@@ -439,8 +459,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [902509.4881194708, 1948188.1306183038],
-                    "center": [902509.4881194708, 1948188.1306183038]
+                    "coordinates": [976011.455460689,
+                        1809643.84277584],
+                    "center": [976011.455460689,
+                        1809643.84277584]
                 },
                 properties: {
                     id: "layer_relaxroad.56a1ea60-6341-11ee-b467-793e2b30119f",
@@ -474,8 +496,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [903678.6198647982, 1948763.1525583533],
-                    "center": [903678.6198647982, 1948763.1525583533]
+                    "coordinates": [975995.18886053,
+                        1809574.45106911],
+                    "center": [975995.18886053,
+                        1809574.45106911]
                 },
                 properties: {
                     id: "layer_relaxroad.56a21170-6341-11ee-b467-793e2b30119f",
@@ -509,8 +533,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [902836.3678115316, 1949724.7037693062],
-                    "center": [902836.3678115316, 1949724.7037693062]
+                    "coordinates": [976189.446872356,
+                        1809577.79916423],
+                    "center": [976189.446872356,
+                        1809577.79916423]
                 },
                 properties: {
                     id: "layer_relaxroad.56a23880-6341-11ee-b467-793e2b30119f",
@@ -544,8 +570,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [900283.9721507748, 1950578.2156021083],
-                    "center": [900283.9721507748, 1950578.2156021083]
+                    "coordinates": [976684.783802138,
+                        1809433.14686466],
+                    "center": [976684.783802138,
+                        1809433.14686466]
                 },
                 properties: {
                     id: "layer_relaxroad.56a25f90-6341-11ee-b467-793e2b30119f",
@@ -579,8 +607,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [901398.8660721676, 1951577.0093088204],
-                    "center": [901398.8660721676, 1951577.0093088204]
+                    "coordinates": [976659.744479472,
+                        1809405.92747698],
+                    "center": [976659.744479472,
+                        1809405.927476984]
                 },
                 properties: {
                     id: "layer_relaxroad.56a2adb0-6341-11ee-b467-793e2b30119f",
@@ -614,8 +644,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [901618.3765223114, 1950531.9486874875],
-                    "center": [901618.3765223114, 1950531.9486874875]
+                    "coordinates": [975858.74826265,
+                        1809953.06987733],
+                    "center": [975858.74826265,
+                        1809953.06987733]
                 },
                 properties: {
                     id: "layer_relaxroad.56a2d4c0-6341-11ee-b467-793e2b30119f",
@@ -649,8 +681,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [900141.4529501533, 1950889.8461605485],
-                    "center": [900141.4529501533, 1950889.8461605485]
+                    "coordinates": [975088.290604146,
+                        1809715.87548011],
+                    "center": [975088.290604146,
+                        1809715.87548011]
                 },
                 properties: {
                     id: "layer_relaxroad.56a2fbd0-6341-11ee-b467-793e2b30119f",
@@ -684,8 +718,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [899051.0586488987, 1950727.5993060947],
-                    "center": [899051.0586488987, 1950727.5993060947]
+                    "coordinates": [974372.305335048,
+                        1807986.0339156],
+                    "center": [974372.305335048,
+                        1807986.0339156]
                 },
                 properties: {
                     id: "layer_relaxroad.56a322e0-6341-11ee-b467-793e2b30119f",
@@ -719,8 +755,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [901728.1317473834, 1949596.6432912273],
-                    "center": [901728.1317473834, 1949596.6432912273]
+                    "coordinates": [975674.855996615,
+                        1808676.43724201],
+                    "center": [975674.855996615,
+                        1808676.43724201]
                 },
                 properties: {
                     id: "layer_relaxroad.56a349f0-6341-11ee-b467-793e2b30119f",
@@ -754,8 +792,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [903593.9705735989, 1948911.866126107],
-                    "center": [903593.9705735989, 1948911.866126107]
+                    "coordinates": [977236.225590407,
+                        1812084.03251143],
+                    "center": [977236.225590407,
+                        1812084.03251143]
                 },
                 properties: {
                     id: "layer_relaxroad.56a39810-6341-11ee-b467-793e2b30119f",
@@ -789,8 +829,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [905049.4202973739, 1948364.2829923271],
-                    "center": [905049.4202973739, 1948364.2829923271]
+                    "coordinates": [977173.467416663,
+                        1812083.08796674],
+                    "center": [977173.467416663,
+                        1812083.08796674]
                 },
                 properties: {
                     id: "layer_relaxroad.56a3bf20-6341-11ee-b467-793e2b30119f",
@@ -824,8 +866,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [903910.1133414684, 1948286.7385398312],
-                    "center": [903910.1133414684, 1948286.7385398312]
+                    "coordinates": [977140.177212623,
+                        1811680.42004761],
+                    "center": [977140.177212623,
+                        1811680.42004761]
                 },
                 properties: {
                     id: "layer_relaxroad.56a3e630-6341-11ee-b467-793e2b30119f",
@@ -859,148 +903,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [903955.4470213895, 1948042.1752665748],
-                    "center": [903955.4470213895, 1948042.1752665748]
-                },
-                properties: {
-                    id: "layer_relaxroad.56a43450-6341-11ee-b467-793e2b30119f",
-                    show_label: "안심길25_용남고등학교",
-                    uid: "56a43450-6341-11ee-b467-793e2b30119f",
-                    area: "44250",
-                    name: "안심길25_용남고등학교",
-                    asset_type: "",
-                    install_date: "",
-                    asset_id: "",
-                    address: "신도안면 남선리 1276",
-                    model: "",
-                    state: "ok",
-                    sublayer_id: "default",
-                    deveui: "",
-                    speed_limit: 30,
-                    dfs_type: "태양광",
-                    reg_date: "2023-10-05T05:37:57.252Z",
-                    upd_date: null,
-                    sync_date: null,
-                    car_speed1: null,
-                    car_speed2: null,
-                    car_speed3: null,
-                    car_speed4: null,
-                    car_speed5: null,
-                    car_speed6: null,
-                    sublayer_style: {}
-                }
-            },
-            {
-                type: "Feature",
-                geometry: {
-                    type: "Point",
-                    "coordinates": [904020.7343709897, 1947353.4651797768],
-                    "center": [904020.7343709897, 1947353.4651797768]
-                },
-                properties: {
-                    id: "layer_relaxroad.56a48270-6341-11ee-b467-793e2b30119f",
-                    show_label: "안심길26_삼위일체성당",
-                    uid: "56a48270-6341-11ee-b467-793e2b30119f",
-                    area: "44250",
-                    name: "안심길26_삼위일체성당",
-                    asset_type: "",
-                    install_date: "",
-                    asset_id: "",
-                    address: "신도안면 남선리 1336",
-                    model: "",
-                    state: "ok",
-                    sublayer_id: "default",
-                    deveui: "",
-                    speed_limit: 30,
-                    dfs_type: "태양광",
-                    reg_date: "2023-10-05T05:37:57.253Z",
-                    upd_date: null,
-                    sync_date: null,
-                    car_speed1: null,
-                    car_speed2: null,
-                    car_speed3: null,
-                    car_speed4: null,
-                    car_speed5: null,
-                    car_speed6: null,
-                    sublayer_style: {}
-                }
-            },
-            {
-                type: "Feature",
-                geometry: {
-                    type: "Point",
-                    "coordinates": [901581.5201590854, 1952363.0138948972],
-                    "center": [901581.5201590854, 1952363.0138948972]
-                },
-                properties: {
-                    id: "layer_relaxroad.56a4a980-6341-11ee-b467-793e2b30119f",
-                    show_label: "안심길27_삼위일체성당",
-                    uid: "56a4a980-6341-11ee-b467-793e2b30119f",
-                    area: "44250",
-                    name: "안심길27_삼위일체성당",
-                    asset_type: "",
-                    install_date: "",
-                    asset_id: "",
-                    address: "신도안면 남선리 1336",
-                    model: "",
-                    state: "ok",
-                    sublayer_id: "default",
-                    deveui: "",
-                    speed_limit: 30,
-                    dfs_type: "태양광",
-                    reg_date: "2023-10-05T05:37:57.255Z",
-                    upd_date: null,
-                    sync_date: null,
-                    car_speed1: null,
-                    car_speed2: null,
-                    car_speed3: null,
-                    car_speed4: null,
-                    car_speed5: null,
-                    car_speed6: null,
-                    sublayer_style: {}
-                }
-            },
-            {
-                type: "Feature",
-                geometry: {
-                    type: "Point",
-                    "coordinates": [900678.5511396171, 1950234.2024838342],
-                    "center": [900678.5511396171, 1950234.2024838342]
-                },
-                properties: {
-                    id: "layer_relaxroad.56a4d090-6341-11ee-b467-793e2b30119f",
-                    show_label: "안심길28_용남고등학교",
-                    uid: "56a4d090-6341-11ee-b467-793e2b30119f",
-                    area: "44250",
-                    name: "안심길28_용남고등학교",
-                    asset_type: "",
-                    install_date: "",
-                    asset_id: "",
-                    address: "신도안면 남선리 1276",
-                    model: "",
-                    state: "ok",
-                    sublayer_id: "default",
-                    deveui: "",
-                    speed_limit: 30,
-                    dfs_type: "태양광",
-                    reg_date: "2023-10-05T05:37:57.256Z",
-                    upd_date: null,
-                    sync_date: null,
-                    car_speed1: null,
-                    car_speed2: null,
-                    car_speed3: null,
-                    car_speed4: null,
-                    car_speed5: null,
-                    car_speed6: null,
-                    sublayer_style: {}
-                }
-            },
-            {
-                type: "Feature",
-                geometry: {
-                    type: "Point",
-                    "coordinates": [903108.3111823406, 1948979.4715406338],
-                    "center": [903108.3111823406, 1948979.4715406338]
+                    "coordinates": [977115.046372155,
+                        1810899.48960058],
+                    "center": [977115.046372155,
+                        1810899.48960058]
                 },
                 properties: {
                     id: "layer_relaxroad.56a4f7a0-6341-11ee-b467-793e2b30119f",
@@ -1034,8 +940,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [901908.4167302026, 1950316.011842033],
-                    "center": [901908.4167302026, 1950316.011842033]
+                    "coordinates": [977096.185835976,
+                        1811170.40890445],
+                    "center": [977096.185835976,
+                        1811170.40890445]
                 },
                 properties: {
                     id: "layer_relaxroad.56a51eb0-6341-11ee-b467-793e2b30119f",
@@ -1069,8 +977,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [904377.9092943122, 1948676.841415422],
-                    "center": [904377.9092943122, 1948676.841415422]
+                    "coordinates": [977101.650925326,
+                        1811165.84673154],
+                    "center": [977101.650925326,
+                        1811165.84673154]
                 },
                 properties: {
                     id: "layer_relaxroad.56a56cd0-6341-11ee-b467-793e2b30119f",
@@ -1104,8 +1014,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [900963.8121520454, 1952038.0084726617],
-                    "center": [900963.8121520454, 1952038.0084726617]
+                    "coordinates": [977070.875946072,
+                        1810868.10440133],
+                    "center": [977070.875946072,
+                        1810868.10440133]
                 },
                 properties: {
                     id: "layer_relaxroad.56a63020-6341-11ee-b467-793e2b30119f",
@@ -1139,8 +1051,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [901245.3581641858, 1951279.2658297766],
-                    "center": [901245.3581641858, 1951279.2658297766]
+                    "coordinates": [977178.132786352,
+                        1810953.78601825],
+                    "center": [977178.132786352,
+                        1810953.78601825]
                 },
                 properties: {
                     id: "layer_relaxroad.56a65730-6341-11ee-b467-793e2b30119f",
@@ -1174,8 +1088,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [901126.0590064998, 1951799.410157289],
-                    "center": [901126.0590064998, 1951799.410157289]
+                    "coordinates": [977304.784917276,
+                        1809286.31102189],
+                    "center": [977304.784917276,
+                        1809286.31102189]
                 },
                 properties: {
                     id: "layer_relaxroad.56a6f370-6341-11ee-b467-793e2b30119f",
@@ -1209,8 +1125,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [900763.389567133, 1950992.9478513289],
-                    "center": [900763.389567133, 1950992.9478513289]
+                    "coordinates": [977151.730318924,
+                        1808115.72070291],
+                    "center": [977151.730318924,
+                        1808115.72070291]
                 },
                 properties: {
                     id: "layer_relaxroad.56a71a80-6341-11ee-b467-793e2b30119f",
@@ -1244,8 +1162,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [901693.922997087, 1952004.6047085093],
-                    "center": [901693.922997087, 1952004.6047085093]
+                    "coordinates": [977129.474010449,
+                        1808191.3162082],
+                    "center": [977129.474010449,
+                        1808191.3162082]
                 },
                 properties: {
                     id: "layer_relaxroad.56a74190-6341-11ee-b467-793e2b30119f",
@@ -1279,8 +1199,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [900899.390606895, 1952224.1151586538],
-                    "center": [900899.390606895, 1952224.1151586538]
+                    "coordinates": [977674.221125112,
+                        1808363.27009015],
+                    "center": [977674.221125112,
+                        1808363.27009015]
                 },
                 properties: {
                     id: "layer_relaxroad.56a768a0-6341-11ee-b467-793e2b30119f",
@@ -1314,8 +1236,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [901142.7608885743, 1951870.9896519033],
-                    "center": [901142.7608885743, 1951870.9896519033]
+                    "coordinates": [978026.390462453,
+                        1808752.14870891],
+                    "center": [978026.390462453,
+                        1808752.14870891]
                 },
                 properties: {
                     id: "layer_relaxroad.56a78fb0-6341-11ee-b467-793e2b30119f",
@@ -1349,8 +1273,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [901295.4638104119, 1951052.597430176],
-                    "center": [901295.4638104119, 1951052.597430176]
+                    "coordinates": [978362.949554631,
+                        1808474.44683724],
+                    "center": [978362.949554631,
+                        1808474.44683724]
                 },
                 properties: {
                     id: "layer_relaxroad.56a7b6c0-6341-11ee-b467-793e2b30119f",
@@ -1384,8 +1310,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [901188.0945684933, 1950866.4907441866],
-                    "center": [901188.0945684933, 1950866.4907441866]
+                    "coordinates": [978382.854569155,
+                        1808316.11356583],
+                    "center": [978382.854569155,
+                        1808316.11356583]
                 },
                 properties: {
                     id: "layer_relaxroad.56a804e0-6341-11ee-b467-793e2b30119f",
@@ -1419,8 +1347,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [901739.3183018358, 1949253.4428826028],
-                    "center": [901739.3183018358, 1949253.4428826028]
+                    "coordinates": [978360.160129428,
+                        1808291.87837427],
+                    "center": [978360.160129428,
+                        1808291.87837427]
                 },
                 properties: {
                     id: "layer_relaxroad.56a82bf0-6341-11ee-b467-793e2b30119f",
@@ -1454,8 +1384,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [903722.3918389227, 1949275.5065729322],
-                    "center": [903722.3918389227, 1949275.5065729322]
+                    "coordinates": [978938.990239631,
+                        1808383.07633264],
+                    "center": [978938.990239631,
+                        1808383.07633264]
                 },
                 properties: {
                     id: "layer_relaxroad.56a85300-6341-11ee-b467-793e2b30119f",
@@ -1489,8 +1421,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [901013.9545256367, 1950760.977158638],
-                    "center": [901013.9545256367, 1950760.977158638]
+                    "coordinates": [978224.073163768,
+                        1807856.41088422],
+                    "center": [978224.073163768,
+                        1807856.41088422]
                 },
                 properties: {
                     id: "layer_relaxroad.56a87a10-6341-11ee-b467-793e2b30119f",
@@ -1524,8 +1458,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [902170.0950949095, 1949710.4822095623],
-                    "center": [902170.0950949095, 1949710.4822095623]
+                    "coordinates": [976942.359595911,
+                        1810723.58132679],
+                    "center": [976942.359595911,
+                        1810723.58132679]
                 },
                 properties: {
                     id: "layer_relaxroad.56a8a120-6341-11ee-b467-793e2b30119f",
@@ -1559,8 +1495,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [901617.080916569, 1949160.8271718589],
-                    "center": [901617.080916569, 1949160.8271718589]
+                    "coordinates": [977212.993016174,
+                        1810379.67760845],
+                    "center": [977212.993016174,
+                        1810379.67760845]
                 },
                 properties: {
                     id: "layer_relaxroad.56a8c830-6341-11ee-b467-793e2b30119f",
@@ -1594,8 +1532,10 @@ export default [
                 type: "Feature",
                 geometry: {
                     type: "Point",
-                    "coordinates": [901049.2169259813, 1950998.0342002306],
-                    "center": [901049.2169259813, 1950998.0342002306]
+                    "coordinates": [977325.502367787,
+                        1810136.35533769],
+                    "center": [977325.502367787,
+                        1810136.35533769]
                 },
                 properties: {
                     id: "layer_relaxroad.56a8ef40-6341-11ee-b467-793e2b30119f",

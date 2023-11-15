@@ -76,3 +76,24 @@ export const resizeSvgToPng = async(svgBase64: string, width: number, height: nu
 
     return `data:image/png;base64,${pngBase64}`;
 }
+
+export const convertSvgSize = (svgBase64: string, width: number, height: number): string => {
+    // 입력된 base64 형식의 SVG 데이터를 디코딩하여 원본 SVG 코드를 가져옴
+    const base64Code = atob(svgBase64.split('base64,')[1]);
+    //console.log('base64Code', base64Code)
+    // 가져온 SVG 코드를 파싱하여 XML 문서로 변환
+    const svgDom = new DOMParser().parseFromString(base64Code, 'image/svg+xml');
+    //console.log('svgDom', svgDom)
+    // SVG 문서에서 'svg' 요소를 찾아 해당 요소를 가져옴
+    const svgElement = svgDom.getElementsByTagName('svg')[0];
+    //console.log('svgElement', svgElement)
+    // 'width'와 'height' 속성을 설정하여 SVG 이미지의 크기를 변경
+    svgElement.setAttribute('width', `${width}px`);
+    svgElement.setAttribute('height', `${height}px`);
+    //return `data:image/svg+xml;base64,${btoa(svgDom.documentElement.outerHTML)}`;
+    // 변경된 SVG를 base64 형태의 문자열로 반환
+    // 기존 코드는 serializeToString()을 사용하여 전체 XML 문서를 문자열로 변환
+    // 그 후, 변환된 문자열을 base64로 인코딩하여 반환
+    //console.log('new XMLSerializer().serializeToString(svgDom)', new XMLSerializer().serializeToString(svgDom))
+    return `data:image/svg+xml;base64,${btoa(new XMLSerializer().serializeToString(svgDom))}`;
+}

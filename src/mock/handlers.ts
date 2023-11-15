@@ -4,7 +4,7 @@ import { makeSafeRoadData, safeRoadAssetMockupData, safeRoadDailyStatusMockupDat
 import { GetSafeRoadStatusParams } from "../interfaces/safeRoad.interface";
 import { FeatureCollection } from "geojson";
 import safeRoadGeojson from '../data/safeRoad.geodata';
-import { crossWalkSymbol } from "../data/layerStyle.data";
+import { safeRoadSymbol, busSymbol, finedustSymbol, crossWalkSymbol } from "../data/layerStyle.data";
 
 
 export const handlers = [
@@ -57,8 +57,14 @@ export const handlers = [
         const {layerId} = requestBody;
         //new HttpResponse('postFeature API success', {status: 200});
         if(layerId === 'layer_relaxroad'){
+            return HttpResponse.json(safeRoadSymbol.response.results);
+        } else if(layerId === 'layer_businfo') {
+            return HttpResponse.json(busSymbol.response.results);
+        } else if(layerId ==='layer_finddust'){
+            return HttpResponse.json(finedustSymbol.response.results);
+        } else if (layerId === 'layer_crosswalk') {
             return HttpResponse.json(crossWalkSymbol.response.results);
-        } else {
+        }else  {
             return HttpResponse.error();
         }
      }),
