@@ -24,7 +24,7 @@ export const safeRoadStatusMockupData = {
     },
 };
 
-export const safeRoadDataArray = Array(400)
+export const safeRoadSourceArray = Array(400)
     .fill(0)
     .map((_, idx) => {
         const thisDate = new Date();
@@ -34,9 +34,14 @@ export const safeRoadDataArray = Array(400)
             sync_time: `10:0${idx % 8}:${10 + (idx % 45)}`,
             deveui: `1001-${100 + (idx % 3)}`,
             state: "정상",
-            fast_pass: getRandomNumber(5, 30),
+            speed_limit: getRandomNumber(20, 50),
             normal_pass: getRandomNumber(5, 30),
-            speed_average: getRandomNumber(15, 22),
+            car_speed1: getRandomNumber(15, 22),
+            car_speed2: getRandomNumber(15, 22),
+            car_speed3: getRandomNumber(15, 22),
+            car_speed4: getRandomNumber(15, 22),
+            car_speed5: getRandomNumber(15, 22),
+            car_speed6: getRandomNumber(15, 22),
         };
     });
 
@@ -77,8 +82,12 @@ export const safeRoadDailyDataArray = Array(200)
         return {
             sync_date: `2023-10-25`,
             time: `10:0${idx % 9}:${10 + (idx % 2)}`,
-            fast_pass: getRandomNumber(10, 20),
-            normal_pass: getRandomNumber(5, 30),
+            car_speed1: getRandomNumber(10, 20),
+            car_speed2: getRandomNumber(5, 30),
+            car_speed3: getRandomNumber(10, 30),
+            car_speed4: getRandomNumber(10, 40),
+            car_speed5: getRandomNumber(12, 40),
+            car_speed6: getRandomNumber(5, 30),
         };
     });
 
@@ -93,8 +102,12 @@ export const safeRoadDailyStatusMockupData = {
                 return {
                     sync_date: "2023-09-15",
                     time: `10:09:${10 + index * 2}`,
-                    fast_pass: getRandomNumber(10, 20),
-                    normal_pass: getRandomNumber(5, 30),
+                    car_speed1: getRandomNumber(10, 20),
+                    car_speed2: getRandomNumber(5, 30),
+                    car_speed3: getRandomNumber(10, 30),
+                    car_speed4: getRandomNumber(10, 40),
+                    car_speed5: getRandomNumber(12, 40),
+                    car_speed6: getRandomNumber(5, 30),
                 };
             }),
         totalCount: 175,
