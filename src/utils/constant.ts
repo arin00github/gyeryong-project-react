@@ -41,7 +41,7 @@ export const FINE_DUST_API_URL = {
     getAsset: `${FINE_DUST_COMMON_URL}/get/asset`,
     getAsset_test: makeMSWUrl(`${FINE_DUST_COMMON_URL}/get/asset`),
     getHistory: `${FINE_DUST_COMMON_URL}/get/history`,
-    getHistory_Test: makeMSWUrl(`${FINE_DUST_COMMON_URL}/get/history`),
+    getHistory_test: makeMSWUrl(`${FINE_DUST_COMMON_URL}/get/history`),
     getChart: `${FINE_DUST_COMMON_URL}/get/dashboard`,
     getChart_test: makeMSWUrl(`${FINE_DUST_COMMON_URL}/get/dashboard`),
 };

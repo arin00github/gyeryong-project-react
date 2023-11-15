@@ -27,9 +27,13 @@ export interface SafeRoadStatusResult  {
     devnm: string;
     deveui: string;
     devstate: string;
-    fast_pass: number;
-    normal_pass: number;
-    speed_average: number;
+    speed_limit: number;
+    car_speed1: number;
+    car_speed2: number;
+    car_speed3: number;
+    car_speed4: number;
+    car_speed5: number;
+    car_speed6: number;
 }
 
 export interface GetSafeRoadStatusResponse extends HttpResponse {
