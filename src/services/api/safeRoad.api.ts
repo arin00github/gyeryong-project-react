@@ -22,8 +22,6 @@ export const getSafeRoadAssets = async(): Promise<GetSafeRoadAssetResponse | Err
     })
 
     const resData = await executeRequest(url, {method: "POST", timeout: HTTP_REQUEST_TIMEOUT});
-
-    console.log('getSafeRoadAssets resData', resData)
     
     if(resData){
         switch(resData.status){
